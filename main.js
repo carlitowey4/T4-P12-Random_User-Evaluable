@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     card.classList.add('card');
 
     const userImage = document.createElement('img');
-    userImage.src = './user_nt_found.jpg';
+    userImage.src = 'user_nt_found.jpg';
     userImage.alt = 'User Image';
     userImage.id = 'userImage';
 
