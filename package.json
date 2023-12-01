@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://carlitowey4.github.io/T4-P12-RandomUser/",
+  "homepage": "https://carlitowey4.github.io/T4-P12-Random_User-Evaluable/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
