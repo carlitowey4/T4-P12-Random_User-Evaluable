@@ -4,7 +4,7 @@
         <span><strong>Phone: ${e.phone}</strong></span>
         <span><strong>Location: ${e.location}</strong></span>
         <span><strong>Current Time: ${n}</strong></span>
-      `,r)r.innerHTML="",r.appendChild(a),r.appendChild(c);else{const i=document.createElement("div");i.classList.add("card"),i.appendChild(a),i.appendChild(c),t.insertBefore(i,t.firstChild)}o(e)}catch(e){console.error("Error generating user:",e),s(e)}})}document.addEventListener("DOMContentLoaded",function(){const o=document.querySelector(".container");function s(){const r=document.createElement("div");r.classList.add("card");const e=document.createElement("img");e.src="./user_nt_found.jpg",e.alt="User Image",e.id="userImage";const n=document.createElement("div");n.classList.add("card-info"),n.innerHTML=`
+      `,r)r.innerHTML="",r.appendChild(a),r.appendChild(c);else{const i=document.createElement("div");i.classList.add("card"),i.appendChild(a),i.appendChild(c),t.insertBefore(i,t.firstChild)}o(e)}catch(e){console.error("Error generating user:",e),s(e)}})}document.addEventListener("DOMContentLoaded",function(){const o=document.querySelector(".container");function s(){const r=document.createElement("div");r.classList.add("card");const e=document.createElement("img");e.src="user_nt_found.jpg",e.alt="User Image",e.id="userImage";const n=document.createElement("div");n.classList.add("card-info"),n.innerHTML=`
       <span><strong>Name: name surname</strong></span>
       <span><strong>Mail: mail</strong></span>
       <span><strong>Phone: phone</strong></span>
