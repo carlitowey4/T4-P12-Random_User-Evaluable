@@ -1,0 +1,18 @@
+{
+  "name": "t4-p12-random-user-evaluable",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://carlitowey4.github.io/T4-P12-RandomUser/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0",
+    "vite": "^5.0.0"
+  }
+}
